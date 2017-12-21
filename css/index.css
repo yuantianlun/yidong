@@ -1,0 +1,253 @@
+#bj{
+    background: url("../img/beijing.jpg");
+    background-repeat: no-repeat;
+    background-position: center -50px;
+}
+/*头部开始*/
+header{
+    width: 100%;
+    height: 166px;
+    margin: 0 auto;
+    z-index: 10;
+}
+.header{
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+    background: #f5f5f5;
+    font-size: 12px;
+    color: #808080;
+}
+.header_left{
+    float: left;
+    line-height: 30px;
+    font-size: 12px;
+}
+.header_left_1{
+    /*display: inline-block;*/
+    float: left;
+    padding-right: 20px;
+    font-size: 12px;
+
+}
+.header_left_2{
+    color: #e40077;
+    float: left;
+    font-size: 12px;
+
+}
+.header_right{
+    float: right;
+    font-size: 12px;
+    display: flex;
+    line-height: 30px;
+}
+.header_right_1{
+    font-size: 12px;
+    float: left;
+    padding: 0 17px;
+    color: #808080;
+}
+.header_right_2{
+    font-size: 12px;
+    background: url("../img/headerer.png")no-repeat center center;
+    text-align: center;
+    color: #808080;
+    width:122px;
+}
+.header_right_3{
+    float: left;
+    padding: 0 17px;
+    color: #808080;
+    font-size: 12px;
+}
+.header_right_4{
+    float: left;
+    padding: 0 17px;
+    color: #808080;
+    font-size: 12px;
+}
+.header_right_5{
+    float: left;
+    padding: 0 17px;
+    color: #808080;
+    font-size: 12px;
+}
+.header_right_6{
+    font-size: 12px;
+
+}
+.header_right_7{
+    font-size: 12px;
+}
+/*头部结束*/
+
+/*头部中间开始*/
+.header_cen{
+    width: 1200px;
+    height: 88px;
+    margin: 0 auto;
+    /*display: flex;*/
+}
+.header_cen_lt{
+    float: left;
+    width: 230px;
+    height: auto;
+    margin: 20px 0 0 0;
+}
+.header_cen_cen{
+    float: left;
+    margin: 40px 0 0 35px;
+    position: relative;
+}
+.header_cen_rt{
+    width: 500px;
+    position: relative;
+    float: right;
+    margin-top: 12px;
+    box-sizing: border-box!important;
+}
+.header_cen_rt_t {
+    height: 38px;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    background: url("../img/input.png") no-repeat left center/100% auto;
+}
+.input{
+    border: 0;
+    display: block;
+    padding: 3px 12px;
+    position: absolute;
+    top: 10px;
+    left:2px;
+    outline:none;
+}
+/**/
+/*头部下面开始*/
+.header_cen_rt_b{
+    width: 1200px;
+    height: 47px;
+    margin: 0 auto;
+    border-bottom: 1px solid #3eb4fa;
+    position: relative;
+}
+.header_cen_rt_b_1{
+    float: left;
+    width:235px;
+    height:47px;
+    line-height:47px;
+    color: #fff;
+    text-align: center;
+    background: #3eb4fa;
+}
+.header_cen_rt_b_ul{
+    float: left;
+    height: 47px;
+    padding-left: 29px;
+    line-height:47px;
+}
+.header_cen_rt_b_ul_z1{
+    float: left;
+    padding: 0 29px;
+    font-size: 16px;
+}
+.header_cen_rt_b_ul_z2{
+    float: left;
+    padding: 0 29px;
+    font-size: 16px;
+}
+.header_cen_rt_b_ul_z3{
+    float: left;
+    padding: 0 29px;
+    font-size: 16px;
+}
+.header_cen_rt_b_ul_z4{
+    float: left;
+    padding: 0 29px;
+    font-size: 16px;
+}
+.header_cen_rt_b_ul_z5{
+    float: left;
+    padding: 0 29px;
+    font-size: 16px;
+}
+.header_cen_rt_b_ul li:hover{
+    color:#3eb4fa;
+}
+/*头部下面结束*/
+/*banner图*/
+.navdhz{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+.navxhz{
+    width: 1200px;
+    max-height: 398px!important;
+    height: 398px;
+    margin: 0 auto;
+    position: relative;
+    background: #ffffff;
+    overflow: hidden;
+    z-index: 1;
+}
+.navlt{
+    float: left;
+    width: 235px;
+    height: 398px;
+    /*position: absolute;*/
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+.navlt li{
+    width: 233px;
+    height: 52px;
+    border: 1px solid #ffffff;
+    line-height: 52px;
+}
+.navlt li a{
+    float: left;
+    display: block;
+    width: 200px;
+    height: 50px;
+    padding-left:31px;
+    font: 16px/50px "microsoft yahei";
+    color: #333333;
+}
+/*轮播图开始*/
+
+.navce{
+    width: 705px;
+    height:398px;
+    float: left;
+    position: relative;
+}
+.navce li{
+    width:705px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.navce li img{
+    width: 100%;
+    height: 398px;
+    margin: auto;
+}
+/*轮播图结束*/
+.banner_right{
+    float: right;
+    width: 260px;
+    height: 398px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: #ffffff;
+}
+.banner_right_t{
+    width: 258px;
+    margin: 0 auto;
+    padding: 30px 0 0;
+}
